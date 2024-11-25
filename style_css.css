@@ -1,0 +1,29 @@
+/* CSS for first child link in li */
+li:first-child a {
+    color: green;
+}
+
+/* CSS for last child link in li */
+li:last-child a {
+    color: green;
+}
+
+/* CSS for even numbered links in li */
+li:nth-child(even) a {
+    color: green;
+}
+
+/* CSS for odd numbered links in li */
+li:nth-child(odd) a {
+    color: violet;
+}
+
+/* CSS for first paragraph in the page */
+p:first-of-type {
+    color: red;
+}
+
+/* CSS for last paragraph in the page */
+p:last-of-type {
+    color: orange;
+}
